@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Przedszkoli - System Zarządzania</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-graduation-cap"></i> Dashboard Przedszkoli</h1>
+                <p>System zarządzania dla 7 przedszkoli</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="preschools-grid" id="preschoolsGrid">
+                <!-- Preschools will be dynamically generated here -->
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Dashboard Przedszkoli. Wszystkie prawa zastrzeżone.</p>
+        </footer>
+    </div>
+
+    <!-- Modal for preschool details -->
+    <div class="modal" id="preschoolModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <span class="close" id="closeModal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="tiles-grid" id="modalTiles">
+                    <!-- Tiles will be dynamically generated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
