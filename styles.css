@@ -400,15 +400,29 @@ body {
 .footer {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
-    padding: 20px;
-    text-align: center;
+    padding: 0;
     backdrop-filter: blur(10px);
     margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0px;
+}
+
+.footer-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
 }
 
 .footer p {
     color: #718096;
     font-size: 0.9rem;
+    margin: 0;
 }
 
 /* Responsive design */

@@ -110,7 +110,7 @@ const preschoolsData = [
         id: 4,
         name: "Przedszkole L. Integracja",
         description: "Zarządzanie formularzami i danymi",
-        icon: "fas fa-baby"
+        icon: "fas fa-puzzle-piece"
     },
     {
         id: 5,
