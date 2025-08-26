@@ -90,43 +90,43 @@ const preschoolLinks = {
 const preschoolsData = [
     {
         id: 1,
-        name: "Przedszkole Mielec Integracja \"Zamek\"",
+        name: "Przedszkole M. Integracja \"Zamek\"",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-school"
     },
     {
         id: 2,
-        name: "Przedszkole Mielec Terapeutyczne \"Orzech\"",
+        name: "Przedszkole M. Terapeutyczne \"Orzech\"",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-graduation-cap"
     },
     {
         id: 3,
-        name: "Przedszkole Tajęcina Integracja",
+        name: "Przedszkole T. Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-child"
     },
     {
         id: 4,
-        name: "Przedszkole Limanowa Integracja",
+        name: "Przedszkole L. Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-baby"
     },
     {
         id: 5,
-        name: "Przedszkole Limanowa Terapeutyczne",
+        name: "Przedszkole L. Terapeutyczne",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-users"
     },
     {
         id: 6,
-        name: "Przedszkole Tuchów Integracja",
+        name: "Przedszkole T. Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-heart"
     },
     {
         id: 7,
-        name: "Przedszkole Biczyce Dolne Integracja",
+        name: "Przedszkole B.D. Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-star"
     }
