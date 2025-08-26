@@ -102,7 +102,7 @@ const preschoolsData = [
     },
     {
         id: 3,
-        name: "Przedszkole T. Integracja",
+        name: "Przedszkole Taj. Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-child"
     },
@@ -120,7 +120,7 @@ const preschoolsData = [
     },
     {
         id: 6,
-        name: "Przedszkole T. Integracja",
+        name: "Przedszkole Tuch. Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-heart"
     },
