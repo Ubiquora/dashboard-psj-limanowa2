@@ -90,13 +90,13 @@ const preschoolLinks = {
 const preschoolsData = [
     {
         id: 1,
-        name: "Przedszkole M. Integracja \"Zamek\"",
+        name: "Przedszkole M. Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-school"
     },
     {
         id: 2,
-        name: "Przedszkole M. Terapeutyczne \"Orzech\"",
+        name: "Przedszkole M. Terapeutyczne",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-graduation-cap"
     },
