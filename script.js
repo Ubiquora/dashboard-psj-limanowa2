@@ -2,43 +2,43 @@
 const preschoolsData = [
     {
         id: 1,
-        name: "Przedszkole Nr 1",
+        name: "Przedszkole Mielec Integracja \"Zamek\"",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-school"
     },
     {
         id: 2,
-        name: "Przedszkole Nr 2",
+        name: "Przedszkole Mielec Terapeutyczne \"Orzech\"",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-graduation-cap"
     },
     {
         id: 3,
-        name: "Przedszkole Nr 3",
+        name: "Przedszkole Tajęcina Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-child"
     },
     {
         id: 4,
-        name: "Przedszkole Nr 4",
+        name: "Przedszkole Limanowa Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-baby"
     },
     {
         id: 5,
-        name: "Przedszkole Nr 5",
+        name: "Przedszkole Limanowa Terapeutyczne",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-users"
     },
     {
         id: 6,
-        name: "Przedszkole Nr 6",
+        name: "Przedszkole Tuchów Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-heart"
     },
     {
         id: 7,
-        name: "Przedszkole Nr 7",
+        name: "Przedszkole Biczyce Dolne Integracja",
         description: "Zarządzanie formularzami i danymi",
         icon: "fas fa-star"
     }
