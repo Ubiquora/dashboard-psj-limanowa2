@@ -44,35 +44,91 @@ const preschoolsData = [
     }
 ];
 
-// Tile configurations with placeholder links
+// Tile configurations organized by categories
 const tilesConfig = [
+    // KATEGORIA 1: Lista Obecności
     {
         title: "Formularz Obecności",
         description: "Rejestracja obecności dzieci",
         icon: "fas fa-check-circle",
-        class: "attendance",
+        class: "attendance-form",
+        category: "lista-obecnosci",
         url: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u&origin=lprLink&route=shorturl"
     },
     {
         title: "Arkusz Obecności",
         description: "Przeglądanie danych obecności",
         icon: "fas fa-table",
-        class: "spreadsheet",
-        url: "https://ubiquora-my.sharepoint.com/:x:/p/michal_listek/ET54uxftUU5OhWTwQNHGL5gBiqCswlhnV_oVewPm8nT-Bg?e=qAi4nL"
+        class: "attendance-sheet",
+        category: "lista-obecnosci",
+        url: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EQqh5vICurRCsVnxZduznqcBpmJFZQKP-SrZ8AG5TYbx1Q?e=4vwzPn"
     },
+    {
+        title: "Dashboard Obecności",
+        description: "Analiza danych obecności",
+        icon: "fas fa-chart-pie",
+        class: "attendance-dashboard",
+        category: "lista-obecnosci",
+        url: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=dhsFsXXtgNFRgLtOXxrTzYJFiJ5DRZNU&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u"
+    },
+    // KATEGORIA 2: Dziennik Zajęć Przedszkola
     {
         title: "Dzienny Zapis Pracy",
         description: "Formularz dziennej pracy wychowawczo-dydaktycznej",
         icon: "fas fa-clipboard-list",
-        class: "daily-report",
-        url: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUQkMzTUVRSThLWUM3T1pTMjBJODMwM1paNi4u"
+        class: "preschool-form",
+        category: "dziennik-zajec",
+        url: "https://forms.office.com/e/4Uke2ws582"
     },
     {
         title: "Arkusz Dziennej Pracy",
         description: "Przeglądanie danych dziennej pracy",
         icon: "fas fa-chart-line",
-        class: "daily-spreadsheet",
-        url: "https://ubiquora-my.sharepoint.com/:x:/p/michal_listek/ET54uxftUU5OhWTwQNHGL5gBiqCswlhnV_oVewPm8nT-Bg?e=qAi4nL"
+        class: "preschool-sheet",
+        category: "dziennik-zajec",
+        url: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EcXaII_iFAVCkV_jbRtc8b0B1X5u0L8FmVLBT7WyOBowPg?e=7Mtlqv"
+    },
+    // KATEGORIA 3: Dziennik Rewalidacyjny
+    {
+        title: "Dziennik Rewalidacji",
+        description: "Formularz rewalidacji",
+        icon: "fas fa-heartbeat",
+        class: "rehab-form",
+        category: "dziennik-rewalidacyjny",
+        url: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMVFVOVk2QlY3VDdFWUVHN1VYRDBXSlZFVC4u"
+    },
+    {
+        title: "Odpowiedzi Do Dziennika Rewalidacji",
+        description: "Odpowiedzi do dziennika rewalidacji",
+        icon: "fas fa-file-medical",
+        class: "rehab-sheet",
+        category: "dziennik-rewalidacyjny",
+        url: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B093BA5B9-5072-417E-98DA-886B62CF07A5%7D&file=Dziennik%20Rewalidacji.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=5971411d-afc0-4dac-ade0-382e1de43dc5&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue"
+    },
+    // KATEGORIA 4: Dziennik Specjalisty
+    {
+        title: "Dziennik Specjalisty",
+        description: "Formularz dziennika specjalisty",
+        icon: "fas fa-user-md",
+        class: "specialist-form",
+        category: "dziennik-specjalisty",
+        url: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
+    },
+    {
+        title: "Odpowiedzi Do Dziennika Specjalisty",
+        description: "Odpowiedzi do dziennika specjalisty",
+        icon: "fas fa-stethoscope",
+        class: "specialist-sheet",
+        category: "dziennik-specjalisty",
+        url: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B8A702412-1D31-4C80-B03D-2229F9C253C4%7D&file=Dziennik%20specjalisty.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=1370df0e-64ad-45bb-9379-12507c2fcc61&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue"
+    },
+    {
+        title: "Dashboard Do Dziennika Specjalisty",
+        description: "Dashboard do analizy danych dziennika specjalisty",
+        icon: "fas fa-chart-bar",
+        class: "specialist-dashboard",
+        category: "dziennik-specjalisty",
+        url: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
     }
 ];
 
@@ -116,14 +172,40 @@ function createPreschoolCard(preschool) {
     return card;
 }
 
-// Open preschool modal with tiles
+// Open preschool modal with tiles grouped by categories
 function openPreschoolModal(preschool) {
     modalTitle.textContent = preschool.name;
     modalTiles.innerHTML = '';
     
-    tilesConfig.forEach(tile => {
-        const tileElement = createTile(tile, preschool.id);
-        modalTiles.appendChild(tileElement);
+    // Group tiles by category
+    const categories = {
+        'lista-obecnosci': 'Lista Obecności',
+        'dziennik-zajec': 'Dziennik Zajęć Przedszkola',
+        'dziennik-rewalidacyjny': 'Dziennik Rewalidacyjny',
+        'dziennik-specjalisty': 'Dziennik Specjalisty'
+    };
+    
+    Object.keys(categories).forEach(categoryKey => {
+        const categoryTiles = tilesConfig.filter(tile => tile.category === categoryKey);
+        
+        if (categoryTiles.length > 0) {
+            // Create category header
+            const categoryHeader = document.createElement('div');
+            categoryHeader.className = 'category-header';
+            categoryHeader.innerHTML = `<h3>${categories[categoryKey]}</h3>`;
+            modalTiles.appendChild(categoryHeader);
+            
+            // Create category grid
+            const categoryGrid = document.createElement('div');
+            categoryGrid.className = `category-grid ${categoryKey}`;
+            
+            categoryTiles.forEach(tile => {
+                const tileElement = createTile(tile, preschool.id);
+                categoryGrid.appendChild(tileElement);
+            });
+            
+            modalTiles.appendChild(categoryGrid);
+        }
     });
     
     modal.style.display = 'block';
