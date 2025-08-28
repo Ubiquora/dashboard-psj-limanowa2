@@ -1,6 +1,6 @@
 // Links for each preschool (using placeholder links as base)
 const preschoolLinks = {
-    1: { // Grupa 0 - "Krasnale"
+    1: { // Grupa 0 - "Misie"
         attendanceForm: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u&origin=lprLink&route=shorturl",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EQqh5vICurRCsVnxZduznqcBpmJFZQKP-SrZ8AG5TYbx1Q?e=4vwzPn",
         attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=dhsFsXXtgNFRgLtOXxrTzYJFiJ5DRZNU&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
@@ -90,9 +90,9 @@ const preschoolLinks = {
 const preschoolsData = [
     {
         id: 1,
-        name: "Krasnale",
-        description: "Zarządzanie formularzami i danymi dla grupy Krasnale",
-        icon: "fas fa-school"
+        name: "Misie",
+        description: "Zarządzanie formularzami i danymi dla grupy Misie",
+        icon: "fa-solid fa-teddy-bear"
     },
     {
         id: 2,
