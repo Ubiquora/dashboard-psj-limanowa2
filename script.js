@@ -1,6 +1,6 @@
 // Links for each preschool (using placeholder links as base)
 const preschoolLinks = {
-    1: { // Przedszkole Mielec Integracja "Zamek"
+    1: { // Grupa 0 - "Krasnale"
         attendanceForm: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u&origin=lprLink&route=shorturl",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EQqh5vICurRCsVnxZduznqcBpmJFZQKP-SrZ8AG5TYbx1Q?e=4vwzPn",
         attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=dhsFsXXtgNFRgLtOXxrTzYJFiJ5DRZNU&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
@@ -12,7 +12,7 @@ const preschoolLinks = {
         specialistSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B8A702412-1D31-4C80-B03D-2229F9C253C4%7D&file=Dziennik%20specjalisty.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=1370df0e-64ad-45bb-9379-12507c2fcc61&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
         specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
     },
-    2: { // Przedszkole Mielec Terapeutyczne "Orzech"
+    2: { // Grupa 1 - "Biedronki"
         attendanceForm: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u&origin=lprLink&route=shorturl",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EQqh5vICurRCsVnxZduznqcBpmJFZQKP-SrZ8AG5TYbx1Q?e=4vwzPn",
         attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=dhsFsXXtgNFRgLtOXxrTzYJFiJ5DRZNU&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
@@ -24,7 +24,7 @@ const preschoolLinks = {
         specialistSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B8A702412-1D31-4C80-B03D-2229F9C253C4%7D&file=Dziennik%20specjalisty.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=1370df0e-64ad-45bb-9379-12507c2fcc61&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
         specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
     },
-    3: { // Przedszkole Tajęcina Integracja
+    3: { // Grupa 2 - "Pszczółki"
         attendanceForm: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u&origin=lprLink&route=shorturl",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EQqh5vICurRCsVnxZduznqcBpmJFZQKP-SrZ8AG5TYbx1Q?e=4vwzPn",
         attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=dhsFsXXtgNFRgLtOXxrTzYJFiJ5DRZNU&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
@@ -36,7 +36,7 @@ const preschoolLinks = {
         specialistSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B8A702412-1D31-4C80-B03D-2229F9C253C4%7D&file=Dziennik%20specjalisty.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=1370df0e-64ad-45bb-9379-12507c2fcc61&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
         specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
     },
-    4: { // Przedszkole Limanowa Integracja
+    4: { // Grupa 3 - "Żabki"
         attendanceForm: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u&origin=lprLink&route=shorturl",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EQqh5vICurRCsVnxZduznqcBpmJFZQKP-SrZ8AG5TYbx1Q?e=4vwzPn",
         attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=dhsFsXXtgNFRgLtOXxrTzYJFiJ5DRZNU&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
@@ -48,7 +48,7 @@ const preschoolLinks = {
         specialistSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B8A702412-1D31-4C80-B03D-2229F9C253C4%7D&file=Dziennik%20specjalisty.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=1370df0e-64ad-45bb-9379-12507c2fcc61&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
         specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
     },
-    5: { // Przedszkole Limanowa Terapeutyczne
+    5: { // Grupa 4 - "Sówki"
         attendanceForm: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u&origin=lprLink&route=shorturl",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EQqh5vICurRCsVnxZduznqcBpmJFZQKP-SrZ8AG5TYbx1Q?e=4vwzPn",
         attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=dhsFsXXtgNFRgLtOXxrTzYJFiJ5DRZNU&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
@@ -60,7 +60,7 @@ const preschoolLinks = {
         specialistSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B8A702412-1D31-4C80-B03D-2229F9C253C4%7D&file=Dziennik%20specjalisty.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=1370df0e-64ad-45bb-9379-12507c2fcc61&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
         specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
     },
-    6: { // Przedszkole Tuchów Integracja
+    6: { // Grupa 5 - "Motylki"
         attendanceForm: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u&origin=lprLink&route=shorturl",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EQqh5vICurRCsVnxZduznqcBpmJFZQKP-SrZ8AG5TYbx1Q?e=4vwzPn",
         attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=dhsFsXXtgNFRgLtOXxrTzYJFiJ5DRZNU&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
@@ -72,7 +72,7 @@ const preschoolLinks = {
         specialistSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B8A702412-1D31-4C80-B03D-2229F9C253C4%7D&file=Dziennik%20specjalisty.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=1370df0e-64ad-45bb-9379-12507c2fcc61&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
         specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
     },
-    7: { // Przedszkole Biczyce Dolne Integracja
+    7: { // Grupa 6 - "Jeżyki"
         attendanceForm: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u&origin=lprLink&route=shorturl",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EQqh5vICurRCsVnxZduznqcBpmJFZQKP-SrZ8AG5TYbx1Q?e=4vwzPn",
         attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=dhsFsXXtgNFRgLtOXxrTzYJFiJ5DRZNU&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
@@ -90,44 +90,44 @@ const preschoolLinks = {
 const preschoolsData = [
     {
         id: 1,
-        name: "Przedszkole M. Integracja",
-        description: "Zarządzanie formularzami i danymi",
+        name: "Krasnale",
+        description: "Zarządzanie formularzami i danymi dla grupy Krasnale",
         icon: "fas fa-school"
     },
     {
         id: 2,
-        name: "Przedszkole M. Terapeutyczne",
-        description: "Zarządzanie formularzami i danymi",
+        name: "Biedronki",
+        description: "Zarządzanie formularzami i danymi dla grupy Biedronki",
         icon: "fas fa-graduation-cap"
     },
     {
         id: 3,
-        name: "Przedszkole Taj. Integracja",
-        description: "Zarządzanie formularzami i danymi",
+        name: "Pszczółki",
+        description: "Zarządzanie formularzami i danymi dla grupy Pszczółki",
         icon: "fas fa-child"
     },
     {
         id: 4,
-        name: "Przedszkole L. Integracja",
-        description: "Zarządzanie formularzami i danymi",
+        name: "Żabki",
+        description: "Zarządzanie formularzami i danymi dla grupy Żabki",
         icon: "fas fa-puzzle-piece"
     },
     {
         id: 5,
-        name: "Przedszkole L. Terapeutyczne",
-        description: "Zarządzanie formularzami i danymi",
+        name: "Sówki",
+        description: "Zarządzanie formularzami i danymi dla grupy Sówki",
         icon: "fas fa-users"
     },
     {
         id: 6,
-        name: "Przedszkole Tuch. Integracja",
-        description: "Zarządzanie formularzami i danymi",
+        name: "Motylki",
+        description: "Zarządzanie formularzami i danymi dla grupy Motylki",
         icon: "fas fa-heart"
     },
     {
         id: 7,
-        name: "Przedszkole B.D. Integracja",
-        description: "Zarządzanie formularzami i danymi",
+        name: "Jeżyki",
+        description: "Zarządzanie formularzami i danymi dla grupy Jeżyki",
         icon: "fas fa-star"
     }
 ];
