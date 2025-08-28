@@ -98,7 +98,7 @@ const preschoolsData = [
         id: 2,
         name: "Biedronki",
         description: "Zarządzanie formularzami i danymi dla grupy Biedronki",
-        icon: "fas fa-graduation-cap"
+        icon: "fas fa-bugs"
     },
     {
         id: 3,
