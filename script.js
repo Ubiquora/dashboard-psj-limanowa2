@@ -104,31 +104,31 @@ const preschoolsData = [
         id: 3,
         name: "Pszczółki",
         description: "Zarządzanie formularzami i danymi dla grupy Pszczółki",
-        icon: "fas fa-child"
+        icon: "fas fa-kiwi-bird"
     },
     {
         id: 4,
         name: "Żabki",
         description: "Zarządzanie formularzami i danymi dla grupy Żabki",
-        icon: "fas fa-puzzle-piece"
+        icon: "fas fa-frog"
     },
     {
         id: 5,
         name: "Sówki",
         description: "Zarządzanie formularzami i danymi dla grupy Sówki",
-        icon: "fas fa-users"
+        icon: "fas fa-dove"
     },
     {
         id: 6,
         name: "Motylki",
         description: "Zarządzanie formularzami i danymi dla grupy Motylki",
-        icon: "fas fa-heart"
+        icon: "fas fa-crow"
     },
     {
         id: 7,
         name: "Jeżyki",
         description: "Zarządzanie formularzami i danymi dla grupy Jeżyki",
-        icon: "fas fa-star"
+        icon: "fas fa-cat"
     }
 ];
 
@@ -150,14 +150,6 @@ const tilesConfig = [
         class: "attendance-sheet",
         category: "lista-obecnosci",
         linkKey: "attendanceSheet"
-    },
-    {
-        title: "Dashboard Obecności",
-        description: "Analiza danych obecności",
-        icon: "fas fa-chart-pie",
-        class: "attendance-dashboard",
-        category: "lista-obecnosci",
-        linkKey: "attendanceDashboard"
     },
     // KATEGORIA 2: Dziennik Zajęć Przedszkola
     {
