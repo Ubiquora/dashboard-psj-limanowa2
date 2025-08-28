@@ -201,14 +201,6 @@ const tilesConfig = [
         class: "specialist-sheet",
         category: "dziennik-specjalisty",
         linkKey: "specialistSheet"
-    },
-    {
-        title: "Dashboard Do Dziennika Specjalisty",
-        description: "Dashboard do analizy danych dziennika specjalisty",
-        icon: "fas fa-chart-bar",
-        class: "specialist-dashboard",
-        category: "dziennik-specjalisty",
-        linkKey: "specialistDashboard"
     }
 ];
 
