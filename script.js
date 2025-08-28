@@ -92,7 +92,7 @@ const preschoolsData = [
         id: 1,
         name: "Misie",
         description: "Zarządzanie formularzami i danymi dla grupy Misie",
-        icon: "fa-solid fa-teddy-bear"
+        icon: "fa-solid fa-hippo"
     },
     {
         id: 2,
