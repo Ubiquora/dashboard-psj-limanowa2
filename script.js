@@ -1,11 +1,11 @@
 // Links for each preschool (using placeholder links as base)
 const preschoolLinks = {
     1: { // Grupa 1 - "Maluchy"
-        attendanceForm: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u&origin=lprLink&route=shorturl",
-        attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EQqh5vICurRCsVnxZduznqcBpmJFZQKP-SrZ8AG5TYbx1Q?e=4vwzPn",
-        attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=dhsFsXXtgNFRgLtOXxrTzYJFiJ5DRZNU&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
-        preschoolForm: "https://forms.office.com/e/4Uke2ws582",
-        preschoolSheet: "https://ubiquora-my.sharepoint.com/:x:/p/augustyn_kozak/EcXaII_iFAVCkV_jbRtc8b0B1X5u0L8FmVLBT7WyOBowPg?e=7Mtlqv",
+        attendanceForm: "https://forms.office.com/e/Y1VBQm1bLg",
+        attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/Ebt-vcBHF2NKhwaBG6Pod0sBc_00miWQFr8JX-4AVMqXKQ?e=C6fIEd",
+        attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=BqUVgbZ8aG4UyL5hgHLjAMUVjx3l0aa1&id=A7t7Nm0wM0mb_CdbZb0qxDGrWZg3i2VIjZD57KkDBPRUOUxTS1dBQjJRVjdMUUNBQlhQUlpPMUFEUy4u",
+        preschoolForm: "https://forms.office.com/e/SfivhDA32L",
+        preschoolSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/sebastian_rolek_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B617092FF-DED4-4EDC-8165-668199214E28%7D&file=Dzienny%20zapis%20pracy%20wychowawczo-dydaktycznej.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=eb95e950-6f76-40a2-af91-4a0ddaf7239c&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atruehttps://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EVp-v5SRVtJIjGFD3C88LXABV8CmRhzXGbnEIdDvYcvE2Q?e=snizWe",
         rehabForm: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMVFVOVk2QlY3VDdFWUVHN1VYRDBXSlZFVC4u",
         rehabSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B093BA5B9-5072-417E-98DA-886B62CF07A5%7D&file=Dziennik%20Rewalidacji.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=5971411d-afc0-4dac-ade0-382e1de43dc5&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
         specialistForm: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u",
@@ -194,12 +194,14 @@ function openPreschoolModal(preschool) {
     document.body.style.overflow = 'hidden';
     
     // Add animation
+    /*
     setTimeout(() => {
         modal.querySelectorAll('.modal-content').forEach((el) => {
             el.style.transform = 'scale(1)';
             el.style.opacity = '1';
         });
     }, 10);
+    */
 }
 
 // Create tile element
