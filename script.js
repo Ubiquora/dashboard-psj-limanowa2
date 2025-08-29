@@ -195,8 +195,10 @@ function openPreschoolModal(preschool) {
     
     // Add animation
     setTimeout(() => {
-        modal.querySelector('.modal-content').style.transform = 'scale(1)';
-        modal.querySelector('.modal-content').style.opacity = '1';
+        modal.querySelectorAll('.modal-content').forEach((el) => {
+            el.style.transform = 'scale(1)';
+            el.style.opacity = '1';
+        });
     }, 10);
 }
 
