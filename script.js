@@ -1,9 +1,9 @@
 // Links for each preschool (using placeholder links as base)
 const preschoolLinks = {
     1: { // Grupa 1
-        attendanceForm: "https://forms.office.com/e/Y1VBQm1bLg",
-        attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/Ebt-vcBHF2NKhwaBG6Pod0sBc_00miWQFr8JX-4AVMqXKQ?e=C6fIEd",
-        attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=BqUVgbZ8aG4UyL5hgHLjAMUVjx3l0aa1&id=A7t7Nm0wM0mb_CdbZb0qxDGrWZg3i2VIjZD57KkDBPRUOUxTS1dBQjJRVjdMUUNBQlhQUlpPMUFEUy4u",
+        attendanceForm: "https://forms.office.com/e/NCZqXKtqLK",
+        attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EQryeBu5OiVFsiE3hhGJDnMByiAL27MBVO_GskqMQ-TYZg?e=fIJBaG",
+        attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=2Ec2TAMBQhO8V9YoqNh6R0FLz5qUBNm0&id=A7t7Nm0wM0mb_CdbZb0qxDGrWZg3i2VIjZD57KkDBPRUQUdRSFBGV0o3UEw0WkExWjZBVU5DV05PTy4u",
         preschoolForm: "https://forms.office.com/e/SfivhDA32L",
         preschoolSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/sebastian_rolek_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B617092FF-DED4-4EDC-8165-668199214E28%7D&file=Dzienny%20zapis%20pracy%20wychowawczo-dydaktycznej.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=eb95e950-6f76-40a2-af91-4a0ddaf7239c&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atruehttps://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EVp-v5SRVtJIjGFD3C88LXABV8CmRhzXGbnEIdDvYcvE2Q?e=snizWe",
         rehabForm: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMVFVOVk2QlY3VDdFWUVHN1VYRDBXSlZFVC4u",
@@ -13,9 +13,9 @@ const preschoolLinks = {
         specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
     },
     2: { // Grupa 2
-        attendanceForm: "https://forms.office.com/e/nRtQEVbZE0",
-        attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EWcy9DoY_OdLjG9woyHsMIcB6Q_rTiq-61lKey4q3FD3_g?e=Ky5T9J",
-        attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=U8GHAuUts6HqvQjmsH45QObvpkj0Q5av&id=A7t7Nm0wM0mb_CdbZb0qxDGrWZg3i2VIjZD57KkDBPRUODlOT1NOUERLODBHSjY3MTdVSU9KRVNHQy4u",
+        attendanceForm: "https://forms.office.com/e/d1b1SRfryj",
+        attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EeFyJzNlmVtBoRkbiD4XvEcB0x_WMhVZmPyT1VFqnG7CYA?e=yaCdmN",
+        attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=HpvagH1nG1pkwbd02huf8K7O4nlpcxyq&id=A7t7Nm0wM0mb_CdbZb0qxDGrWZg3i2VIjZD57KkDBPRURDlQMVNROVE0VVVTMjBNODdDVVRNSDZZOS4u",
         preschoolForm: "https://forms.office.com/e/SfivhDA32L",
         preschoolSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/sebastian_rolek_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B617092FF-DED4-4EDC-8165-668199214E28%7D&file=Dzienny%20zapis%20pracy%20wychowawczo-dydaktycznej.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=eb95e950-6f76-40a2-af91-4a0ddaf7239c&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atruehttps://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EVp-v5SRVtJIjGFD3C88LXABV8CmRhzXGbnEIdDvYcvE2Q?e=snizWe",
         rehabForm: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMVFVOVk2QlY3VDdFWUVHN1VYRDBXSlZFVC4u",
@@ -25,9 +25,9 @@ const preschoolLinks = {
         specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
     },
     3: { // Grupa 3
-        attendanceForm: "https://forms.office.com/e/nRtQEVbZE0",
-        attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EWcy9DoY_OdLjG9woyHsMIcB6Q_rTiq-61lKey4q3FD3_g?e=Ky5T9J",
-        attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=U8GHAuUts6HqvQjmsH45QObvpkj0Q5av&id=A7t7Nm0wM0mb_CdbZb0qxDGrWZg3i2VIjZD57KkDBPRUODlOT1NOUERLODBHSjY3MTdVSU9KRVNHQy4u",
+        attendanceForm: "https://forms.office.com/e/YXXQbrtw9i",
+        attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EatkfVDJh-hHhrElFFhe8AsBa-EP9v1MNEexNyjBGgTiXw?e=Rc0z54",
+        attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=bABueSvID25Cuzu5TWd86jkH9Q7nRKL1&id=A7t7Nm0wM0mb_CdbZb0qxDGrWZg3i2VIjZD57KkDBPRUNUYzRzZYWEc3M0w3UlhQOVBWMTk3T0ROVC4u",
         preschoolForm: "https://forms.office.com/e/SfivhDA32L",
         preschoolSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/sebastian_rolek_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B617092FF-DED4-4EDC-8165-668199214E28%7D&file=Dzienny%20zapis%20pracy%20wychowawczo-dydaktycznej.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=eb95e950-6f76-40a2-af91-4a0ddaf7239c&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atruehttps://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EVp-v5SRVtJIjGFD3C88LXABV8CmRhzXGbnEIdDvYcvE2Q?e=snizWe",
         rehabForm: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMVFVOVk2QlY3VDdFWUVHN1VYRDBXSlZFVC4u",
@@ -43,20 +43,20 @@ const preschoolsData = [
     {
         id: 1,
         name: "Pierwsza",
-        description: "Zarządzanie formularzami i danymi dla grupy Maluchy",
+        description: "Zarządzanie formularzami i danymi dla grupy Pierwszej",
         icon: "fas fa-shapes"
     },
     {
         id: 2,
         name: "Druga",
-        description: "Zarządzanie formularzami i danymi dla grupy Starszaki",
-        icon: "fas fa-book-open"
+        description: "Zarządzanie formularzami i danymi dla grupy Drugiej",
+        icon: "fas fa-robot"
     },
     {
         id: 3,
         name: "Trzecia",
-        description: "Zarządzanie formularzami i danymi dla grupy Starszaki",
-        icon: "fas fa-book-open"
+        description: "Zarządzanie formularzami i danymi dla grupy Trzeciej",
+        icon: "fas fa-gamepad"
     }
 ];
 
