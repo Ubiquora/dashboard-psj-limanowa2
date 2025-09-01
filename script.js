@@ -23,7 +23,7 @@ const preschoolLinks = {
         specialistForm: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
         specialistSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B8A702412-1D31-4C80-B03D-2229F9C253C4%7D&file=Dziennik%20specjalisty.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=1370df0e-64ad-45bb-9379-12507c2fcc61&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
         specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
-    }
+    },
     3: { // Grupa 3
         attendanceForm: "https://forms.office.com/e/nRtQEVbZE0",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EWcy9DoY_OdLjG9woyHsMIcB6Q_rTiq-61lKey4q3FD3_g?e=Ky5T9J",
@@ -51,7 +51,7 @@ const preschoolsData = [
         name: "Druga",
         description: "Zarządzanie formularzami i danymi dla grupy Starszaki",
         icon: "fas fa-book-open"
-    }
+    },
     {
         id: 3,
         name: "Trzecia",
