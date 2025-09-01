@@ -1,6 +1,6 @@
 // Links for each preschool (using placeholder links as base)
 const preschoolLinks = {
-    1: { // Grupa 1 - "Maluchy"
+    1: { // Grupa 1
         attendanceForm: "https://forms.office.com/e/Y1VBQm1bLg",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/Ebt-vcBHF2NKhwaBG6Pod0sBc_00miWQFr8JX-4AVMqXKQ?e=C6fIEd",
         attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=BqUVgbZ8aG4UyL5hgHLjAMUVjx3l0aa1&id=A7t7Nm0wM0mb_CdbZb0qxDGrWZg3i2VIjZD57KkDBPRUOUxTS1dBQjJRVjdMUUNBQlhQUlpPMUFEUy4u",
@@ -12,7 +12,19 @@ const preschoolLinks = {
         specialistSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B8A702412-1D31-4C80-B03D-2229F9C253C4%7D&file=Dziennik%20specjalisty.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=1370df0e-64ad-45bb-9379-12507c2fcc61&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
         specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
     },
-    2: { // Grupa 2 - "Starszaki"
+    2: { // Grupa 2
+        attendanceForm: "https://forms.office.com/e/nRtQEVbZE0",
+        attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EWcy9DoY_OdLjG9woyHsMIcB6Q_rTiq-61lKey4q3FD3_g?e=Ky5T9J",
+        attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=U8GHAuUts6HqvQjmsH45QObvpkj0Q5av&id=A7t7Nm0wM0mb_CdbZb0qxDGrWZg3i2VIjZD57KkDBPRUODlOT1NOUERLODBHSjY3MTdVSU9KRVNHQy4u",
+        preschoolForm: "https://forms.office.com/e/SfivhDA32L",
+        preschoolSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/sebastian_rolek_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B617092FF-DED4-4EDC-8165-668199214E28%7D&file=Dzienny%20zapis%20pracy%20wychowawczo-dydaktycznej.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=eb95e950-6f76-40a2-af91-4a0ddaf7239c&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atruehttps://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EVp-v5SRVtJIjGFD3C88LXABV8CmRhzXGbnEIdDvYcvE2Q?e=snizWe",
+        rehabForm: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMVFVOVk2QlY3VDdFWUVHN1VYRDBXSlZFVC4u",
+        rehabSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B093BA5B9-5072-417E-98DA-886B62CF07A5%7D&file=Dziennik%20Rewalidacji.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=5971411d-afc0-4dac-ade0-382e1de43dc5&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
+        specialistForm: "https://forms.office.com/Pages/ResponsePage.aspx?id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUM0dMSzBQSTkyUDlOUlJQNkJPWjZBTU02WC4u",
+        specialistSheet: "https://ubiquora-my.sharepoint.com/:x:/r/personal/augustyn_kozak_ubiquora_com/_layouts/15/Doc.aspx?sourcedoc=%7B8A702412-1D31-4C80-B03D-2229F9C253C4%7D&file=Dziennik%20specjalisty.xlsx&action=edit&mobileredirect=true&wdMsFormsCorrelationId=1370df0e-64ad-45bb-9379-12507c2fcc61&wdtf=%20Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue",
+        specialistDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=qwcTU0IfjHwqEPFOzeUyUXFgNXanPNUg&id=A7t7Nm0wM0mb_CdbZb0qxMKo6Rtve-tIhAzb-2XxBqVUMzVZOVkwMDVZUlA2MElVN0tFSFFUN0I3Mi4u"
+    }
+    3: { // Grupa 3
         attendanceForm: "https://forms.office.com/e/nRtQEVbZE0",
         attendanceSheet: "https://ubiquora-my.sharepoint.com/:x:/p/sebastian_rolek/EWcy9DoY_OdLjG9woyHsMIcB6Q_rTiq-61lKey4q3FD3_g?e=Ky5T9J",
         attendanceDashboard: "https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=U8GHAuUts6HqvQjmsH45QObvpkj0Q5av&id=A7t7Nm0wM0mb_CdbZb0qxDGrWZg3i2VIjZD57KkDBPRUODlOT1NOUERLODBHSjY3MTdVSU9KRVNHQy4u",
@@ -30,13 +42,19 @@ const preschoolLinks = {
 const preschoolsData = [
     {
         id: 1,
-        name: "Maluchy",
+        name: "Pierwsza",
         description: "Zarządzanie formularzami i danymi dla grupy Maluchy",
         icon: "fas fa-shapes"
     },
     {
         id: 2,
-        name: "Starszaki",
+        name: "Druga",
+        description: "Zarządzanie formularzami i danymi dla grupy Starszaki",
+        icon: "fas fa-book-open"
+    }
+    {
+        id: 3,
+        name: "Trzecia",
         description: "Zarządzanie formularzami i danymi dla grupy Starszaki",
         icon: "fas fa-book-open"
     }
