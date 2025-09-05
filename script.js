@@ -211,15 +211,10 @@ function openPreschoolModal(preschool) {
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
     
-    // Add animation
-    /*
-    setTimeout(() => {
-        modal.querySelectorAll('.modal-content').forEach((el) => {
-            el.style.transform = 'scale(1)';
-            el.style.opacity = '1';
-        });
-    }, 10);
-    */
+    // Reset modal content styles to ensure it displays properly
+    const modalContent = modal.querySelector('.modal-content');
+    modalContent.style.transform = 'scale(1)';
+    modalContent.style.opacity = '1';
 }
 
 // Create tile element
